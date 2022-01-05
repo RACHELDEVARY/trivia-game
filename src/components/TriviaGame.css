@@ -1,0 +1,42 @@
+html {
+    font-family: "Mukta", sans-serif;
+    background: #2193b0; 
+    background: -webkit-linear-gradient(
+      to right,
+      #6dd5ed,
+      #2193b0
+    ); 
+    background: linear-gradient(
+      to right,
+      #6dd5ed,
+      #2193b0
+    ); 
+  }
+.trivia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .answers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+ 
+  .answer {
+    width: 22vw;
+    height: 22vw;
+    color: white;
+    background-color: #2193b0;
+    border: solid 5px white;
+    border-radius: 15px;
+    font-size: 20px;
+    display: flex;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
